@@ -1,0 +1,34 @@
+{
+  "name": "cv_site",
+  "version": "1.0.0",
+  "description": "Personal CV Site",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint . --ext .ts",
+    "prettier-format": "prettier ./**/*.ts --write --config .prettierrc"
+  },
+  "keywords": [],
+  "author": "Jörgen Bengtsson",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-lit": "^1.11.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-wc": "^2.0.4",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "0.0.1-alpha.0",
+    "vite": "^5.0.10",
+    "vite-plugin-checker": "^0.6.2",
+    "vite-plugin-stylelint": "^5.3.1"
+  }
+}
