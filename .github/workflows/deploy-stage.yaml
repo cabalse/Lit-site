@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
           node-version: 18
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run build
