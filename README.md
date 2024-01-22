@@ -1,2 +1,2 @@
-# Personal SV Site
+# Personal CV Site
 
