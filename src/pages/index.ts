@@ -1,8 +1,8 @@
 import { LitElement, html, css } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 
-@customElement('my-element')
-export class MyElement extends LitElement {
+@customElement('index')
+export class Index extends LitElement {
   static styles = [
     css`
       :host {
@@ -14,6 +14,6 @@ export class MyElement extends LitElement {
   @property() name = 'to my CV site';
 
   render() {
-    return html`<h1>Welcome ${this.name}</h1>`;
+    return html`<h1>Welcome ${this.name}</h1> `;
   }
 }
